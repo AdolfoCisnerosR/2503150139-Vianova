@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>VIANOVA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>VIANOVA</h1>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#contacto">Contactanos</a>
+    </header>
+
+    <section id="inicio">
+        <h2>Muévete mejor, llega más lejos</h2>
+        <p>
+            VIANOVA ayuda a mejorar la movilidad mediante
+            información del tráfico, rutas y reportes ciudadanos.
+        </p>
+        <img src="img/Vianova.jpg" alt="Tráfico">
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>
+            Somos estudiantes que buscamos mejorar
+            los traslados y las calles de nuestra ciudad.
+        </p>
+
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <h3>Trafico</h3>
+                <p>Informacion del trafico.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Rutas</h3>
+                <p>Rutas alternativas.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Reportes</h3>
+                <p>Reportar baches y fugas.</p>
+            </div>
+        </div>
+
+        <img src="img/Ciudad.jpg" alt="Ciudad">
+    </section>
+
+    <section id="contacto">
+        <h2>Contactanos</h2>
+
+        <form id="formulario">
+            <label>Nombre:</label>
+            <input type="text" required>
+
+            <label>Edad:</label>
+            <input type="number" required>
+
+            <label>Correo:</label>
+            <input type="email" required>
+
+            <label>Descripción:</label>
+            <textarea></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="mensaje"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

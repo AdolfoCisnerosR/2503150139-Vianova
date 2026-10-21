@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial;
+    background-color: #f2f6fa;
+    color: #263445;
+    margin: 0;
+}
+
+header {
+    background-color: #00b0e1;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    margin: 10px;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #168aad;
+}
+
+img {
+    width: 60%;
+    max-width: 450px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: #dff3fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #168aad;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#mensaje {
+    color: green;
+}
